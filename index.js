@@ -6,4 +6,9 @@ app.get('/', function(req, res) {
 }
 );
 
+app.get('/about', function(req, res) {
+    res.send('This is the about page');
+
+})
+
 app.listen(8000);
